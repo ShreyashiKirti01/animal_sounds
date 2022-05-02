@@ -1,74 +1,61 @@
 body{
-background:url("download\ \(20\).jpg");
-background-repeat: no-repeat;
-color: azure;
-background-size: cover;
+    background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
 }
 
-.heading{
-width: 70%;
-background-color: rgb(7, 38, 64);
+.header_div:hover{
+background-color: rgb(69, 66, 66);
+text-align: center;
+width: 100%;
+color: aliceblue;
+}
 
-font-size: 22px;
-color: rgb(255, 255, 255);
+.header_div{
+    background-color: rgb(238, 235, 235);
+    text-align: center;
+    width: 100%;
+   
+    }
+
+.main_div button{
+background-color: rgb(147, 150, 87);
+width: 30%;
+height: 40px;
 font-family: 'Comforter', cursive;
 font-family: 'Dancing Script', cursive;
 font-family: 'Lobster', cursive;
 font-family: 'Pacifico', cursive;
-}
-
-.name_of_people{
-    width: 40%;
-background-color: aliceblue;
-color: rgb(0, 0, 0);
-font-size: 18px;
-font-family: 'Comforter', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Lobster', cursive;
-font-family: 'Pacifico', cursive;
-
-}
-
-#camera{
-width: 350px;
-height: 300px;
-border-style: dashed;
-border-width: 2.7px;
-}
-
-p{
-background-color: rgb(39, 8, 62);
-width: 75%;
-color: rgb(216, 231, 236);
-border-style:ridge;
-border-width: 2.9px;
-border-color: rgb(0, 23, 44);
-font-family: 'Comforter', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Lobster', cursive;
-font-family: 'Pacifico', cursive;
-}
-
-#result_object_name, #result_object_accuracy{
-    background-color: white;
-    width: 75%;
-color: rgb(140, 89, 105);
-
-font-size: 18px;
-font-family: 'Comforter', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Lobster', cursive;
-font-family: 'Pacifico', cursive;
-}
-
-img:hover{
+letter-spacing: 1.7px;
+font-weight: bold;
 border-style:groove;
-border-width: 2.5px;
-border-color: rgb(215, 229, 242);
-border-radius: 20%;
-transform: scale(1.1);
+border-radius: 10%;
+border-width: 3px;
+border-color: rgb(0, 0, 0);
+color: rgb(3, 36, 4);
 }
 
-img{
-transition: .4s all;
+
+
+.copy_right_footer{
+position:fixed;
+bottom: 0;
+background-color: rgb(8, 63, 61);
+width: 100%;
+text-align: center;
+height: 25px;
+color: aliceblue;
+font-size: 20px;
 }
+
+.copy_right_footer:hover{
+    position:fixed;
+    bottom: 0;
+    background-color: rgb(184, 219, 242);
+    
+    width: 100%;
+    text-align: center;
+    height: 25px;
+    color: rgb(34, 50, 4);
+    font-size: 20px;
+    }
